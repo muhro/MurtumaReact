@@ -9,12 +9,12 @@ import Contact from "./views/contact";
 
 function App() {
   return (
-      <div className="h-screen bg-black">
+      <div className="h-screen h-full bg-black">
           <Router>
               <Header/>
 
             <Switch>
-                <Route exact path = "/"> <Home/> </Route>
+                <Route exact path = "/~lauriaus/MurtumaReact/"> <Home/> </Route>
                 <Route exact path = "/events"> <Events/> </Route>
                 <Route exact path = "/artist"> <Artist/> </Route>
                 <Route exact path = "/media"> <Media/> </Route>

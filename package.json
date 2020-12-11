@@ -19,6 +19,7 @@
     "tailwindcss": "^2.0.2",
     "web-vitals": "^0.2.4"
   },
+  "homepage": "/~lauriaus/MurtumaReact/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
