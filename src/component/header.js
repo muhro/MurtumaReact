@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from './Navigation/Navigation';
+import {Link} from "react-router-dom";
 
 function Header() {
 
@@ -8,7 +9,11 @@ function Header() {
             <div className = "flex-1"><Navigation /></div>
 
 
-            <div className = "text-white flex-1 text-right"><a className="Murtuma text-2xl block ml-auto mr-auto py-2" >MURTUMA</a> </div>
+            <div className = "text-white flex-1 text-right ">
+                <Link to="/">
+                    <a className="Murtuma text-4xl block ml-auto mr-auto py-2" > MURTUMA </a>
+                </Link>
+            </div>
         </header>
     );
 }

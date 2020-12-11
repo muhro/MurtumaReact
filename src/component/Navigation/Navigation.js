@@ -25,6 +25,7 @@ function Navigation() {
             <span className="  text-center text-xl font-bold p-3">
                 <FontAwesomeIcon
                     icon = {faBars}
+                    className= "fa-2x"
                     onClick = {() => setShowMenu(!showMenu)}
                 />
             </span>
@@ -35,7 +36,7 @@ function Navigation() {
                 <animated.div 
                     key={key} 
                     style={props}
-                    className = "fixed bg-black-t-50 top-0 left-0 w-full h-full z-50"
+                    className = "fixed  bg-black-t-50 top-0 left-0 w-full h-full z-50"
                     onClick = {() => setShowMenu(false)}
                 >
                 </animated.div>
@@ -48,7 +49,7 @@ function Navigation() {
                 <animated.div 
                     key={key} 
                     style={props}
-                    className = "fixed bg-black top-0 left-0 w-2/3 h-full shadow z-50 shadow"
+                    className = "fixed bg-black top-0 left-0 w-2/4 h-full shadow z-50 shadow"
                 >
                     <NavigtionMenu 
                         closeMenu = {() => setShowMenu(false)}

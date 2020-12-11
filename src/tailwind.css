@@ -18,7 +18,12 @@ Use a better box model (opinionated).
 /**
 Use a more readable tab size (opinionated).
 */
-
+*{
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
 :root {
   -moz-tab-size: 4;
   tab-size: 4;
@@ -50,6 +55,10 @@ body {
 @font-face {
     font-family: 'Kolja-Black';
     src: url('./Kolja-Black.ttf');
+}
+.MurtumaS{
+color: white;
+font-size: 2rem;
 }
 .Murtuma {
 color: white;
