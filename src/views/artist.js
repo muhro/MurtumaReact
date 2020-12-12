@@ -4,17 +4,34 @@ import murtumaAN from '../images/murtumaAN.jfif'
 import murtumaK from '../images/murtumaK.jfif'
 import murtumaO from '../images/murtumaO.jfif'
 import murtumaL from '../images/murtumaL.jpeg'
+import murtumaR from '../images/murtumaR.jfif'
 
 function Artist() {
+    const murtumaAl = () => {
+        window.location.href = "https://www.mixcloud.com/MURTUMA/murtuma-presents-antwon-blanc"
+    }
+    const murtumaANl = () => {
+        window.location.href = "https://www.mixcloud.com/MURTUMA/murtuma-presents-andrew-moore-zagrave-depo-klub-zagreb-croatia-291119/"
+    }
+    const murtumaKl = () => {
+        window.location.href = "https://www.mixcloud.com/MURTUMA/kobzev-murtuma-promo-mix/"
+    }
+    const murtumaOl = () => {
+        window.location.href = "https://www.mixcloud.com/MURTUMA/murtuma-presents-surma/"
+    }
+    const murtumaRl = () => {
+        window.location.href = "https://www.mixcloud.com/MURTUMA/murtuma-presents-r%C3%AFan/"
+    }
 
 
     return(
-        <div className="overflow-scroll mx-auto max-w-screen-lg max-h-full bg-black pt-16" >
-            <li>  <img  className="object-center  my-auto mx-auto " src={murtumaA} alt="Logo" /></li>
-            <li>  <img  className="object-center  my-auto mx-auto " src={murtumaAN} alt="Logo" /></li>
-            <li>  <img  className="object-center  my-auto mx-auto " src={murtumaK} alt="Logo" /></li>
-            <li>  <img  className="object-center  my-auto mx-auto " src={murtumaO} alt="Logo" /></li>
-            <li>  <img  className="object-center  my-auto mx-auto " src={murtumaL} alt="Logo" /></li>
+        <div className=" h-auto bg-black pt-16 mb-auto  grid grid-cols-1 md:grid-cols-2" >
+            <li>  <img  className="object-center my-auto mx-auto  max-h-full md:max-h-screen px-6" src={murtumaA} alt="Logo" onClick={murtumaAl}/></li>
+            <li>  <img  className="object-center my-auto mx-auto  max-h-full md:max-h-screen px-6" src={murtumaAN} alt="Logo" onClick={murtumaANl}/></li>
+            <li>  <img  className="object-center my-auto mx-auto  max-h-full md:max-h-screen px-6" src={murtumaK} alt="Logo" onClick={murtumaKl}/></li>
+            <li>  <img  className="object-center my-auto mx-auto  max-h-full md:max-h-screen px-6" src={murtumaO} alt="Logo" onClick={murtumaOl}/></li>
+            <li>  <img  className="object-center my-auto mx-auto  max-h-full md:max-h-screen px-6" src={murtumaR} alt="Logo" onClick={murtumaRl}/></li>
+            <li>  <img  className="object-center my-auto mx-auto  max-h-full md:max-h-screen px-6" src={murtumaL} alt="Logo" /></li>
         </div>
     )
 

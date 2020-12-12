@@ -5,8 +5,8 @@ function Home() {
 
 
     return(
-        <div className="container h-full mx-auto pb-10 flex ">
-        <img  className="object-center my-auto mx-auto" src={landinPic} alt="Logo" />
+        <div className="container h-full mx-auto pb-10 flex mb-auto">
+        <img  className="object-center my-auto mx-auto  max-h-full md:max-h-screen " src={landinPic} alt="Logo" />
         </div>
         )
 

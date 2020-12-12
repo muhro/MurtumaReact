@@ -18,7 +18,7 @@ function Navigation() {
         enter: { opacity: 1, transform: 'translateX(0%)' },
         leave: { opacity: 0, transform: 'translateX(-100%)' },
         })
-    
+
 
     return (
         <nav>
@@ -29,29 +29,29 @@ function Navigation() {
                     onClick = {() => setShowMenu(!showMenu)}
                 />
             </span>
-            
+
             {
                 maskTransitions.map(({ item, key, props }) =>
-                item && 
-                <animated.div 
-                    key={key} 
+                item &&
+                <animated.div
+                    key={key}
                     style={props}
-                    className = "fixed  bg-black-t-50 top-0 left-0 w-full h-full z-50"
+                    className = "fixed bg-black-t-50 top-0 left-0 w-1/4 w-full h-screen z-52"
                     onClick = {() => setShowMenu(false)}
                 >
                 </animated.div>
                 )
-            }            
+            }
 
             {
                 transitions.map(({ item, key, props }) =>
-                item && 
-                <animated.div 
-                    key={key} 
+                item &&
+                <animated.div
+                    key={key}
                     style={props}
-                    className = "fixed bg-black top-0 left-0 w-2/4 h-full shadow z-50 shadow"
+                    className = "fixed bg-black top-0 left-0 md:w-1/4 w-2/4 h-full shadow z-50 shadow"
                 >
-                    <NavigtionMenu 
+                    <NavigtionMenu
                         closeMenu = {() => setShowMenu(false)}
                     />
                 </animated.div>

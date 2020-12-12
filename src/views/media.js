@@ -5,8 +5,8 @@ function Media() {
 
 
     return(
-        <div className="container w-screen w-auto h-auto pb-10 flex pt-8">
-            <img  className="object-center  mx-auto" src={landinPic} alt="Logo" />
+        <div className="container h-full mx-auto pb-10 flex mb-auto">
+            <img  className="object-center my-auto mx-auto  max-h-full md:max-h-screen " src={landinPic} alt="Logo" />
         </div>
     )
 

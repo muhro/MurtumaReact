@@ -6,7 +6,7 @@ function Events() {
 
     return(
         <div className="container h-full mx-auto pb-10 flex ">
-            <img  className="object-center my-auto mx-auto" src={event} alt="Logo" />
+            <img  className="object-center my-auto mx-auto  max-h-full md:max-h-screen " src={event} alt="Logo" />
         </div>
     )
 

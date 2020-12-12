@@ -10,8 +10,8 @@ function Header() {
 
 
             <div className = "text-white flex-1 text-right  fixed right-3">
-                <Link to="/~lauriaus/MurtumaReact/">
-                    <a className="Murtuma text-4xl block ml-auto mr-auto py-2" > MURTUMA </a>
+                <Link to="/">
+                    <a className="Murtuma text-4xl block ml-auto mr-auto py-2"  > MURTUMA </a>
                 </Link>
             </div>
         </header>

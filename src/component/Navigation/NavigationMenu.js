@@ -7,7 +7,7 @@ function NavigationMenu(props) {
         <div>
             <div>
                 <Link to = "/" className = "font-bold block pt-5" onClick={props.closeMenu}>
-                    <a className="Murtuma text-4xl block object-cover  text-center py-10" >MURTUMA</a>
+                    <a className="Murtuma text-4xl block object-cover  text-center py-10 " >MURTUMA</a>
                 </Link>
             </div>
 
