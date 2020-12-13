@@ -26,12 +26,12 @@ function Artist() {
 
     return(
         <div className=" h-auto bg-black pt-16 mb-auto  grid grid-cols-1 md:grid-cols-2" >
-            <li>  <img  className="object-center my-auto mx-auto  max-h-full md:max-h-screen px-6" src={murtumaA} alt="Logo" onClick={murtumaAl}/></li>
-            <li>  <img  className="object-center my-auto mx-auto  max-h-full md:max-h-screen px-6" src={murtumaAN} alt="Logo" onClick={murtumaANl}/></li>
-            <li>  <img  className="object-center my-auto mx-auto  max-h-full md:max-h-screen px-6" src={murtumaK} alt="Logo" onClick={murtumaKl}/></li>
-            <li>  <img  className="object-center my-auto mx-auto  max-h-full md:max-h-screen px-6" src={murtumaO} alt="Logo" onClick={murtumaOl}/></li>
-            <li>  <img  className="object-center my-auto mx-auto  max-h-full md:max-h-screen px-6" src={murtumaR} alt="Logo" onClick={murtumaRl}/></li>
-            <li>  <img  className="object-center my-auto mx-auto  max-h-full md:max-h-screen px-6" src={murtumaL} alt="Logo" /></li>
+            <li>  <img  className="object-center my-auto mx-auto  max-h-full md:max-h-screen px-8 md:px-16 py-4 md:py-8" src={murtumaA} alt="Logo" onClick={murtumaAl}/></li>
+            <li>  <img  className="object-center my-auto mx-auto  max-h-full md:max-h-screen px-8 md:px-16 py-4 md:py-8" src={murtumaAN} alt="Logo" onClick={murtumaANl}/></li>
+            <li>  <img  className="object-center my-auto mx-auto  max-h-full md:max-h-screen px-8 md:px-16 py-4 md:py-8" src={murtumaK} alt="Logo" onClick={murtumaKl}/></li>
+            <li>  <img  className="object-center my-auto mx-auto  max-h-full md:max-h-screen px-8 md:px-16 py-4 md:py-8" src={murtumaO} alt="Logo" onClick={murtumaOl}/></li>
+            <li>  <img  className="object-center my-auto mx-auto  max-h-full md:max-h-screen px-8 md:px-16 py-4 md:py-8" src={murtumaR} alt="Logo" onClick={murtumaRl}/></li>
+            <li>  <img  className="object-center my-auto mx-auto  max-h-full md:max-h-screen px-8 md:px-16 py-4 md:py-8" src={murtumaL} alt="Logo" /></li>
         </div>
     )
 
